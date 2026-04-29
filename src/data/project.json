@@ -1,0 +1,112 @@
+{
+  "project": [
+    {
+      "_id": "1",
+      "title": "Dialed Platform - Digital Solutions Showcase",
+      "category": "#react-typescript",
+      "details": "This project is a full-featured front-end web application designed as a digital solutions ...",
+      "image": "/project-1.png",
+      "avatar": "/myphoto.jpg",
+      "author": "Maxwell Carter",
+      "createdAt": "2025-02-11T12:34:56Z",
+      "sourceCode": "https://github.com/waterfire-source/dialed-platform",
+      "liveLink": "https://dialed-platform.vercel.app/"
+    },
+    {
+      "_id": "2",
+      "title": "Casino Game - Lasatlantisbonuses",
+      "category": "#typescript-cairo",
+      "details": "Lasatlantisbonuses is a casino game that allows you to earn money by playing games ...",
+      "image": "/project-5.png",
+      "avatar": "/myphoto.jpg",
+      "author": "Maxwell Carter",
+      "createdAt": "2024-11-10T16:00:00Z",
+      "sourceCode": "https://github.com/waterfire-source",
+      "liveLink": "https://lasatlantisbonuses.com/"
+    },
+    {
+      "_id": "3",
+      "title": "Brokenribs",
+      "category": "#react_native",
+      "details": "Whether you’re a rookie stepping into the crypto playground or a seasoned pro, Ember provides the ...",
+      "image": "/project-3.png",
+      "avatar": "/myphoto.jpg",
+      "author": "Maxwell Carter",
+      "createdAt": "2024-06-20T16:00:00Z",
+      "sourceCode": "https://github.com/waterfire-source",
+      "liveLink": "https://play.google.com/store/apps/details?id=com.emberfund.ember"
+    },
+    {
+      "_id": "4",
+      "title": "PDF To MP3 Convert",
+      "category": "#nextjs-openAI",
+      "details": "A completed guide about PDF to MP3 conversion website developed using openAI ...",
+      "image": "/project-4.png",
+      "avatar": "/myphoto.jpg",
+      "author": "Maxwell Carter",
+      "createdAt": "2024-04-02T16:00:00Z",
+      "sourceCode": "https://github.com/waterfire-source/pdf-to-mp3",
+      "liveLink": "https://pdf-to-mp3.vercel.app/"
+    },
+    {
+      "_id": "5",
+      "title": "ZNSConnect - Decentralized Naming System",
+      "category": "#web3-zeta_chain #nextjs-typescript",
+      "details": "ZNSConnect is a decentralized naming system designed to simplify the Web3 experience by...",
+      "image": "/project-2.png",
+      "avatar": "/myphoto.jpg",
+      "author": "Maxwell Carter",
+      "createdAt": "2023-11-22T12:34:56Z",
+      "sourceCode": "https://github.com/waterfire-source",
+      "liveLink": "https://www.znsconnect.io/"
+    },
+    {
+      "_id": "6",
+      "title": "Metaverse Starter",
+      "category": "#solidity-typescript",
+      "details": "Welcome to our magical world, MetaMerge, where the land hidden under the fog and awaiting ...",
+      "image": "/project-6.png",
+      "avatar": "/myphoto.jpg",
+      "author": "Maxwell Carter",
+      "createdAt": "2023-09-10T16:00:00Z",
+      "sourceCode": "https://github.com/waterfire-source",
+      "liveLink": "https://metaversestarter.io/"
+    },
+    {
+      "_id": "7",
+      "title": "Wild Oak Boutique - Fashion Store",
+      "category": "#shopify-fashion",
+      "details": "A sophisticated fashion boutique with custom product filtering, size guide integration, and mobile-optimized...",
+      "image": "/project-7.png",
+      "avatar": "/myphoto.jpg",
+      "author": "Maxwell Carter",
+      "createdAt": "2025-02-11T12:34:56Z",
+      "sourceCode": "https://github.com/waterfire-source",
+      "liveLink": "https://www.wildoakboutique.com/"
+    },
+    {
+      "_id": "8",
+      "title": "Zildjian - Musical Instruments",
+      "category": "#shopify-music",
+      "details": "Professional musical instruments store with custom product configurators, sound samples, and expert...",
+      "image": "/project-8.png",
+      "avatar": "/myphoto.jpg",
+      "author": "Maxwell Carter",
+      "createdAt": "2025-06-20T12:34:56Z",
+      "sourceCode": "https://github.com/waterfire-source",
+      "liveLink": "https://zildjian.com/"
+    },
+    {
+      "_id": "9",
+      "title": "Flycraft USA - Outdoor Equipment",
+      "category": "#shopify-outdoor",
+      "details": "Outdoor equipment and fishing gear store with custom product finders, size calculators, and expert advice...",
+      "image": "/project-9.png",
+      "avatar": "/myphoto.jpg",
+      "author": "Maxwell Carter",
+      "createdAt": "2025-09-14T12:34:56Z",
+      "sourceCode": "https://github.com/waterfire-source",
+      "liveLink": "https://www.flycraftusa.com/"
+    }
+  ]
+}
