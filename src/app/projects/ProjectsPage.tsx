@@ -4,7 +4,6 @@ import ShineBorder from "@/components/ui/shine-border";
 import SkeletonUI from "@/ui/SkeletonUI";
 import Image from "next/image";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa6";
 import { MdOpenInNew } from "react-icons/md";
 
 import { HoverBorderGradient } from "@/components/ui/hover-border-gradient";
@@ -106,17 +105,6 @@ function Project() {
                         {format(new Date(post?.createdAt), "dd/MM/yyyy")}
                       </span>
                     </div>
-                    <div>
-                      <HoverBorderGradient
-                        containerClassName="rounded-lg"
-                        as="button"
-                        className="dark:bg-slate-800 bg-slate-200 text-slate-900 dark:text-slate-100 flex items-center space-x-2 opacity-60 cursor-not-allowed transition-all duration-300"
-                        title="Git source link disabled"
-                      >
-                        <FaGithub className="font-extrabold text-lg" />
-                      </HoverBorderGradient>
-                    </div>
-
                     {post?.liveLink && (
                       <div>
                         <Link

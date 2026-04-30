@@ -21,11 +21,7 @@ function Footer() {
         <div className="md:mt-0 text-center lg:space-y-0 space-y-5">
           <p>
             © {year}
-            <span
-              className="font-bold text-indigo-500 ml-1 mr-1 cursor-not-allowed opacity-70"
-              aria-disabled="true"
-              title="GitHub link disabled"
-            >
+            <span className="font-bold text-indigo-500 ml-1 mr-1">
               Maxwell Carter.
             </span>
             All rights reserved.
