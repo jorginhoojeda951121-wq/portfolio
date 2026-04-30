@@ -1,11 +1,8 @@
 import { BiLogoTypescript } from "react-icons/bi";
 import { DiMongodb } from "react-icons/di";
 import {
-  FaLinkedin,
   FaNode,
   FaReact,
-  FaWhatsapp,
-  FaXTwitter,
 } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
 import { SiExpress, SiNextdotjs, SiTailwindcss } from "react-icons/si";
@@ -76,29 +73,6 @@ function HeroSection() {
               <span className="text-yellow-500">Happy coding!</span> 🧑🏻‍💻
             </p>
 
-            <div className="flex gap-5 mt-5 border-white border-collapse rounded">
-              <Link
-                href="https://wa.com/+447785398641"
-                aria-label="GitHub Icon"
-                target="_blank"
-              >
-                <FaWhatsapp className="h-7 w-7" />
-              </Link>
-              <Link
-                href="https://www.linkedin.com/in/adrian-chan-992762397"
-                target="_blank"
-                aria-label="Linkedin Icon"
-              >
-                <FaLinkedin className="h-7 w-7" />
-              </Link>
-              <Link
-                href="https://x.com/chan_adriaa7"
-                aria-label="Twitter Icon"
-                target="_blank"
-              >
-                <FaXTwitter className="h-7 w-7" />
-              </Link>
-            </div>
             <div className="mt-5">
               <div className="flex mt-5 gap-x-2 border-white border-collapse rounded">
                 <Link

@@ -106,22 +106,17 @@ function Project() {
                         {format(new Date(post?.createdAt), "dd/MM/yyyy")}
                       </span>
                     </div>
-
                     <div>
-                      <Link
-                        href={post?.sourceCode}
-                        target="_blank"
-                        className="transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-y-0"
+                      <HoverBorderGradient
+                        containerClassName="rounded-lg"
+                        as="button"
+                        className="dark:bg-slate-800 bg-slate-200 text-slate-900 dark:text-slate-100 flex items-center space-x-2 opacity-60 cursor-not-allowed transition-all duration-300"
+                        title="Git source link disabled"
                       >
-                        <HoverBorderGradient
-                          containerClassName="rounded-lg"
-                          as="button"
-                          className="dark:bg-slate-800 bg-slate-200 text-slate-900 dark:text-slate-100 flex items-center space-x-2"
-                        >
-                          <FaGithub className="font-extrabold text-lg" />
-                        </HoverBorderGradient>
-                      </Link>
+                        <FaGithub className="font-extrabold text-lg" />
+                      </HoverBorderGradient>
                     </div>
+
                     {post?.liveLink && (
                       <div>
                         <Link
