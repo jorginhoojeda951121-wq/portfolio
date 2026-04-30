@@ -5,7 +5,7 @@ import AnimatedGridPattern from "@/components/ui/animated-grid-pattern";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { useRef, useState } from "react";
-import { FaLocationDot, FaTelegram } from "react-icons/fa6";
+import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { toast } from "react-toastify";
 import emailjs from '@emailjs/browser';
@@ -174,10 +174,6 @@ function Contact() {
                   <div className="space-y-2 mt-3">
                     <div className="flex text-sm font-medium leading-none  peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                       <MdEmail className="mr-2" /> Email: maxwell.carter1109@gmail.com
-                    </div>
-                    <div className="flex text-sm font-medium leading-none  peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-                      <FaTelegram className="mr-2" />
-                      Link: https://t.me/dace1013
                     </div>
                     <div className="flex text-sm font-medium leading-none  peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
                       <FaLocationDot className="mr-2" />
